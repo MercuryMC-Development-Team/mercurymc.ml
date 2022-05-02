@@ -5,7 +5,7 @@ body {
 	background-color: #C62368;
 	font-family: 'Roboto Mono', monospace;
 	font-size: 18px;
-	align-self: left;
+	text-align: center;
 	color: white;
 	margin: 10px;
 }
@@ -38,7 +38,7 @@ img {
 #Description2Div {
 	color: white;
 	text-align: center;
-	font-size: 18px;
+	font-size: 24px;
 	font-family: 'Roboto Mono', monospace;
 }
 #Features {
@@ -66,22 +66,44 @@ img {
 				align-self: center;
 }
 
-.myButton {
- 
-	background-color:#44c767;
-	border-radius:22px;
-	align-self: center;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:20px;
-	padding:16px 31px;
+.myButton1 {
+	display: flex;
+	border:none;
+	border:solid 2px white;
+	border-radius: 5px;
+	background: rgba(255, 255, 255,0);
+	color: white;
+	align-items: center;
+	justify-content: center;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #2f6627;
+	margin: 30px;
+}
+.myButton1:hover {
+	border-radius: 5px;
+	border: solid 2px #FA7268;
+	color: white;
+	box-shadow: 0 5px 15px #FA7268;
+}
+
+.myButton {
+	height: calc(100% + 20px);
+	width: calc(100% + 20px);
+	display: flex;
+	border:none;
+	border:solid 2px white;
+	border-radius: 5px;
+	background: rgba(255, 255, 255,0);
+	color: white;
+	align-items: center;
+	justify-content: center;
+	text-decoration:none;
 	margin: 30px;
 }
 .myButton:hover {
-	background-color:#5cbf2a;
+	border-radius: 5px;
+	border: solid 2px #90A959;
+	color: white;
+	box-shadow: 0 5px 15px rgba(0, 255, 72, .8);
 }
 
 .Downloads {
