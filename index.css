@@ -101,9 +101,9 @@ img {
 }
 .myButton:hover {
 	border-radius: 5px;
-	border: solid 2px #90A959;
+	border: solid 2px aqua;
 	color: white;
-	box-shadow: 0 5px 15px rgba(0, 255, 72, .8);
+	box-shadow: 0 5px 15px aqua;
 }
 
 #Downloads {
@@ -123,6 +123,16 @@ img {
 .ContactInfo {
 	
 }
+
+#vertukvButton {
+	text-decoration: none;
+	color: aqua
+}
+
+#vertukvButton:hover {
+	color: #C62368;
+}
+
 
 .FAQ {
 	

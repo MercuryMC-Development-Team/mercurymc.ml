@@ -1,15 +1,32 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
 <head>
-				 <link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="index.css">
 
-				 <link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
-				<meta charset="UTF-8">
-				<title>Stalin modpack</title>
+	<title> FPS++ </title>
+	<style>
+		.Emojis{
+			margin:0px;
+			font-size:120px;
+		}
+	</style>
+	<script type="text/javascript">
+	
+	var titleText = document.title;
+	
+	function titleAnimation() {
+	
+	 titleText = titleText.substring(1, titleText.length) + titleText.substring(0, 1);
+	 document.title = titleText;
+	 setTimeout("titleAnimation()", 450);
+	 }
+	
+	</script>
 </head>
-<body>
+<body onload="titleAnimation()">
 	<div id="BodyDiv">
 		
 	<div class="TopDiv">
@@ -51,13 +68,13 @@
 			 	</div>
 			 	</div>
 			 	<p id="FeaturesP">дополнительные моды для удобства (которые можно отключить)</p>
-			 	<p style="font-size:120px">⚒️</p>
+			 	<p class="Emojis">⚒️</p>
 			 	<p id="FeaturesP">Гибкость настройки</p>
-			 	<p style="font-size:120px">⚙️</p>
+			 	<p class="Emojis">⚙️</p>
 			 	<p id="FeaturesP">Поддержка</p>
-			 	<p style="font-size:120px">📧</p>
+			 	<p class="Emojis">📧</p>
 			 	<p id="FeaturesP">Все моды являются open-source проектами и они 100% безопасны</p>
-				 <p style=" margin:0px;font-size:120px">🖥️</p>			 
+				 <p class="Emojis">🖥️</p>			 
 			 </section>
 			 
 			 <section id="Downloads">
@@ -93,7 +110,7 @@
 						<div class="ContactInfo">
 							 <h1>Как связаться с нами по поводу других вопросов:</h1>
 							 <p>VK: vk.com/squarecubing</p>
-							<p>Сайт делал vertukv, сборку делает Iosif_Stalin1878 </p>
+							<p>Сайт делал <a id="vertukvButton" href="vertukvRU/">vertukv</a>, сборку делает Iosif_Stalin1878 </p>
 							<h1>👻</h1>
 						 </div> 
 			 <div class="custom-shape-divider-bottom-1651439298">
