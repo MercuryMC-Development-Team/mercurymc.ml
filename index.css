@@ -2,7 +2,7 @@ body {
 	background-color: black;
 }
 #SmallDescription {
-	background-color: #C62368;
+	background-color: #9b2557;
 	font-family: 'Roboto Mono', monospace;
 	font-size: 18px;
 	text-align: center;
@@ -11,10 +11,10 @@ body {
 }
 
 .TopDiv {
-	background-color: #C62368;
+	background-color: #9b2557;
 }
 .custom-shape-divider-bottom-1651436577 .shape-fill {
-	fill: #C62368;
+	fill: #9b2557;
 }
 
 .parentDiv {
@@ -34,6 +34,10 @@ img {
 	max-height: 60%;
 	max-width: 60%;
   border-radius: 8px;
+  
+}
+img:hover {
+	box-shadow: 0 5px 15px #6272a4;
 }
 #Description2Div {
 	color: white;
@@ -42,7 +46,7 @@ img {
 	font-family: 'Roboto Mono', monospace;
 }
 #Features {
-	background-color: #FA7268;
+	background-color: #372a48;
 	color: white;
 	text-align: center;
 	font-size: 24px;
@@ -50,7 +54,7 @@ img {
 
 }
 #FeaturesP:hover {
-	color: #C62368;
+	color: aqua;
 }
 #FpsComparisonDiv {
 	display: inline-flex;
@@ -113,11 +117,11 @@ img {
 	align-content: center;
 	font-size: 24px;
 	font-family: 'Roboto Mono', monospace;
-	background-color: black;
+	background-color: #282a36;
 }
 
 .custom-shape-divider-bottom-1651438773 .shape-fill {
-	fill: #FA7268;
+	fill: #372a48;
 }
 
 .ContactInfo {
