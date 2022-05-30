@@ -10,8 +10,14 @@ font-size:120px;
 text-align:center;
 color:white;
 }
-.AboutMe {
-	
+
+#WhatIdo {
+	font-size: 60px;
+	color: #C62368;
+}
+
+#WhatIdo:hover {
+	color: aqua;
 }
 
 p:hover {
@@ -23,6 +29,12 @@ p:hover {
 	-webkit-filter: drop-shadow(5px 5px 5px #C62368);
 	filter: drop-shadow(5px 5px 5px #C62368);
 }
+
+#ContactInfoLinks {
+	color: #C62368;
+	text-decoration: none;
+}
+
 
 .custom-shape-divider-bottom-1651503185 {
 	overflow: hidden;
