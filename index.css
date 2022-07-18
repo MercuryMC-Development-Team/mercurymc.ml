@@ -2,19 +2,19 @@ body {
 	background-color: black;
 }
 #SmallDescription {
-	background-color: #9b2557;
+	background-color: #1b1b1b;
 	font-family: 'Roboto Mono', monospace;
 	font-size: 18px;
 	text-align: center;
-	color: white;
+	color: #f5f5f5;
 	margin: 10px;
 }
 
 .TopDiv {
-	background-color: #9b2557;
+	background-color: #FF6F00;
 }
 .custom-shape-divider-bottom-1651436577 .shape-fill {
-	fill: #9b2557;
+	fill: #FF6F00;
 }
 
 .parentDiv {
@@ -40,14 +40,14 @@ img:hover {
 	box-shadow: 0 5px 15px #6272a4;
 }
 #Description2Div {
-	color: white;
+	color: #1b1b1b;
 	text-align: center;
 	font-size: 24px;
 	font-family: 'Roboto Mono', monospace;
 }
 #Features {
-	background-color: #372a48;
-	color: white;
+	background-color: #1b1b1b;
+	color: #FF6F00;
 	text-align: center;
 	font-size: 24px;
 	font-family: 'Roboto Mono', monospace;
@@ -73,10 +73,10 @@ img:hover {
 .myButton1 {
 	display: flex;
 	border:none;
-	border:solid 2px white;
+	border:solid 2px #FF6F00;
 	border-radius: 5px;
 	background: rgba(255, 255, 255,0);
-	color: white;
+	color: #FF6F00;
 	align-items: center;
 	justify-content: center;
 	text-decoration:none;
@@ -84,9 +84,9 @@ img:hover {
 }
 .myButton1:hover {
 	border-radius: 5px;
-	border: solid 2px #FA7268;
-	color: white;
-	box-shadow: 0 5px 15px #FA7268;
+	border: solid 2px #FF6F00;
+	color: #FF6F00;
+	box-shadow: 0 5px 15px #FF6F00;
 }
 
 .myButton {
@@ -94,10 +94,10 @@ img:hover {
 	width: calc(100% + 20px);
 	display: flex;
 	border:none;
-	border:solid 2px white;
+	border:solid 2px #FF6F00;
 	border-radius: 5px;
-	background: rgba(255, 255, 255,0);
-	color: white;
+	background: #FF6F00(255, 255, 255,0);
+	color: #f1f1f1;
 	align-items: center;
 	justify-content: center;
 	text-decoration:none;
@@ -106,23 +106,40 @@ img:hover {
 .myButton:hover {
 	border-radius: 5px;
 	border: solid 2px aqua;
-	color: white;
+	color: #FF6F00;
 	box-shadow: 0 5px 15px aqua;
 }
 
 #Downloads {
 	
-	color: white;
+	color: #FF6F00;
 	text-align: center;
 	align-content: center;
 	font-size: 24px;
 	font-family: 'Roboto Mono', monospace;
-	background-color: #282a36;
+	background-color: #1b1b1b;
 }
 
-.custom-shape-divider-bottom-1651438773 .shape-fill {
-	fill: #372a48;
+.custom-shape-divider-top-1658130670 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
 }
+
+.custom-shape-divider-top-1658130670 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1658130670 .shape-fill {
+    fill: #FF6F00;
+}
+
 
 .ContactInfo {
 	
@@ -130,11 +147,11 @@ img:hover {
 
 #vertukvButton {
 	text-decoration: none;
-	color: aqua
+	color: #FF6F00
 }
 
 #vertukvButton:hover {
-	color: #C62368;
+	color: #0ffff0;
 }
 
 
@@ -154,5 +171,5 @@ img:hover {
 }
 
 .custom-shape-divider-bottom-1651439298 .shape-fill {
-	fill: #44475a;
+	fill: #FF6F00;
 }
