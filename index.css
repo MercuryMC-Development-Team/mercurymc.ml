@@ -4,10 +4,14 @@ body {
 #SmallDescription {
 	background-color: #1b1b1b;
 	font-family: 'Roboto Mono', monospace;
-	font-size: 18px;
+	font-size: 23px;
 	text-align: center;
 	color: #f5f5f5;
 	margin: 10px;
+}
+#ButtonsDiv4 {
+	display: inline-flex;
+	align-self: center;
 }
 
 .TopDiv {
@@ -40,7 +44,7 @@ img:hover {
 	box-shadow: 0 5px 15px #6272a4;
 }
 #Description2Div {
-	color: #1b1b1b;
+	color: #000000;
 	text-align: center;
 	font-size: 24px;
 	font-family: 'Roboto Mono', monospace;
@@ -120,6 +124,16 @@ img:hover {
 	background-color: #1b1b1b;
 }
 
+#Downloads2 {
+	
+	color: #FF6F00;
+	text-align: center;
+	align-content: center;
+	font-size: 25px;
+	font-family: 'Roboto Mono', monospace;
+	background-color: #1b1b1b;
+}
+
 .custom-shape-divider-top-1658130670 {
     position: absolute;
     top: 0;
@@ -141,9 +155,7 @@ img:hover {
 }
 
 
-.ContactInfo {
-	
-}
+
 
 #vertukvButton {
 	text-decoration: none;
@@ -155,9 +167,7 @@ img:hover {
 }
 
 
-.FAQ {
-	
-}
+
 
 .custom-shape-divider-bottom-1651439298 {
 	overflow: hidden;
