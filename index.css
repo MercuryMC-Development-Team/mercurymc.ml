@@ -2,11 +2,11 @@ body {
 	background-color: black;
 }
 #SmallDescription {
-	background-color: #1b1b1b;
+	background-color: #101010;
 	font-family: 'Roboto Mono', monospace;
 	font-size: 23px;
 	text-align: center;
-	color: #f5f5f5;
+	color: #FAEBD7;
 	margin: 10px;
 }
 #ButtonsDiv4 {
@@ -15,10 +15,10 @@ body {
 }
 
 .TopDiv {
-	background-color: #FF6F00;
+	background-color: #1e847f;
 }
 .custom-shape-divider-bottom-1651436577 .shape-fill {
-	fill: #FF6F00;
+	fill: #1e847f;
 }
 
 .parentDiv {
@@ -27,14 +27,14 @@ body {
 }
 
 #BasePicture {
-	border: 2px solid white;
+	border: 2px solid #FAEBD7;
 	max-height: 100%;
 	max-width: 100%;
   border-radius: 8px;
 }
 
 img {
-	border: 2px solid white;
+	border: 2px solid #FAEBD7;
 	max-height: 60%;
 	max-width: 60%;
   border-radius: 8px;
@@ -44,14 +44,14 @@ img:hover {
 	box-shadow: 0 5px 15px #6272a4;
 }
 #Description2Div {
-	color: #000000;
+	color: #101010;
 	text-align: center;
 	font-size: 24px;
 	font-family: 'Roboto Mono', monospace;
 }
 #Features {
-	background-color: #1b1b1b;
-	color: #FF6F00;
+	background-color: #101010;
+	color: #1e847f;
 	text-align: center;
 	font-size: 24px;
 	font-family: 'Roboto Mono', monospace;
@@ -77,10 +77,10 @@ img:hover {
 .myButton1 {
 	display: flex;
 	border:none;
-	border:solid 2px #FF6F00;
+	border:solid 2px #1e847f;
 	border-radius: 5px;
 	background: rgba(255, 255, 255,0);
-	color: #FF6F00;
+	color: #1e847f;
 	align-items: center;
 	justify-content: center;
 	text-decoration:none;
@@ -88,9 +88,9 @@ img:hover {
 }
 .myButton1:hover {
 	border-radius: 5px;
-	border: solid 2px #FF6F00;
-	color: #FF6F00;
-	box-shadow: 0 5px 15px #FF6F00;
+	border: solid 2px #1e847f;
+	color: #1e847f;
+	box-shadow: 0 5px 15px #1e847f;
 }
 
 .myButton {
@@ -98,10 +98,10 @@ img:hover {
 	width: calc(100% + 20px);
 	display: flex;
 	border:none;
-	border:solid 2px #FF6F00;
+	border:solid 2px #1e847f;
 	border-radius: 5px;
-	background: #FF6F00(255, 255, 255,0);
-	color: #f1f1f1;
+	background: #1e847f(255, 255, 255,0);
+	color: #FAEBD7;
 	align-items: center;
 	justify-content: center;
 	text-decoration:none;
@@ -110,28 +110,28 @@ img:hover {
 .myButton:hover {
 	border-radius: 5px;
 	border: solid 2px aqua;
-	color: #FF6F00;
+	color: #1e847f;
 	box-shadow: 0 5px 15px aqua;
 }
 
 #Downloads {
 	
-	color: #FF6F00;
+	color: #1e847f;
 	text-align: center;
 	align-content: center;
 	font-size: 24px;
 	font-family: 'Roboto Mono', monospace;
-	background-color: #1b1b1b;
+	background-color: #101010;
 }
 
 #Downloads2 {
 	
-	color: #FF6F00;
+	color: #1e847f;
 	text-align: center;
 	align-content: center;
 	font-size: 25px;
 	font-family: 'Roboto Mono', monospace;
-	background-color: #1b1b1b;
+	background-color: #101010;
 }
 
 .custom-shape-divider-top-1658130670 {
@@ -151,7 +151,7 @@ img:hover {
 }
 
 .custom-shape-divider-top-1658130670 .shape-fill {
-    fill: #FF6F00;
+    fill: #1e847f;
 }
 
 
@@ -159,7 +159,7 @@ img:hover {
 
 #vertukvButton {
 	text-decoration: none;
-	color: #FF6F00
+	color: #1e847f
 }
 
 #vertukvButton:hover {
@@ -181,5 +181,5 @@ img:hover {
 }
 
 .custom-shape-divider-bottom-1651439298 .shape-fill {
-	fill: #FF6F00;
+	fill: #1e847f;
 }
