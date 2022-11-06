@@ -15,10 +15,10 @@ body {
 }
 
 .TopDiv {
-	background-color: #1e847f;
+	background-color: #fe7004;
 }
 .custom-shape-divider-bottom-1651436577 .shape-fill {
-	fill: #1e847f;
+	fill: #fe7004;
 }
 
 .parentDiv {
@@ -51,14 +51,14 @@ img:hover {
 }
 #Features {
 	background-color: #101010;
-	color: #1e847f;
+	color: #fe7004;
 	text-align: center;
 	font-size: 24px;
 	font-family: 'Roboto Mono', monospace;
 
 }
 #FeaturesP:hover {
-	color: aqua;
+	color: #fe7004;
 	-webkit-transition: color 200ms linear;
     	-ms-transition: color 200ms linear;
     	transition: color 200ms linear;
@@ -80,10 +80,10 @@ img:hover {
 .myButton1 {
 	display: flex;
 	border:none;
-	border:solid 2px #1e847f;
+	border:solid 2px #fe7004;
 	border-radius: 5px;
 	background: rgba(255, 255, 255,0);
-	color: #1e847f;
+	color: #fe7004;
 	align-items: center;
 	justify-content: center;
 	text-decoration:none;
@@ -91,12 +91,12 @@ img:hover {
 }
 .myButton1:hover {
 	border-radius: 5px;
-	border: solid 2px #1e847f;
-	color: #1e847f;
+	border: solid 2px #fe7004;
+	color: #fe7004;
 	-webkit-transition: color 1000ms linear;
     	-ms-transition: color 1000ms linear;
     	transition: color 1000ms linear;
-	box-shadow: 0 5px 15px #1e847f;
+	box-shadow: 0 5px 15px #fe7004;
 }
 
 .myButton {
@@ -104,9 +104,9 @@ img:hover {
 	width: calc(100% + 20px);
 	display: flex;
 	border:none;
-	border:solid 2px #1e847f;
+	border:solid 2px #fe7004;
 	border-radius: 5px;
-	background: #1e847f(255, 255, 255,0);
+	background: #fe7004(255, 255, 255,0);
 	color: #FAEBD7;
 	align-items: center;
 	justify-content: center;
@@ -115,12 +115,12 @@ img:hover {
 }
 .myButton:hover {
 	border-radius: 5px;
-	border: solid 2px aqua;
-	color: #1e847f;
+	border: solid 2px #fe7004;
+	color: #fe7004;
 	-webkit-transition: border 1000ms linear;
         -ms-transition: border 1000ms linear;
         transition: border 1000ms linear;
-	box-shadow: 0 5px 10px aqua;
+	box-shadow: 0 5px 10px #fe7004;
 	-webkit-transition: box-shadow 200ms linear;
         -ms-transition: box-shadow 200ms linear;
         transition: box-shadow 200ms linear;
@@ -128,7 +128,7 @@ img:hover {
 
 #Downloads {
 	
-	color: #1e847f;
+	color: #fe7004;
 	text-align: center;
 	align-content: center;
 	font-size: 24px;
@@ -138,7 +138,7 @@ img:hover {
 
 #Downloads2 {
 	
-	color: #1e847f;
+	color: #fe7004;
 	text-align: center;
 	align-content: center;
 	font-size: 25px;
@@ -163,7 +163,7 @@ img:hover {
 }
 
 .custom-shape-divider-top-1658130670 .shape-fill {
-    fill: #1e847f;
+    fill: #fe7004;
 }
 
 
@@ -171,7 +171,7 @@ img:hover {
 
 #vertukvButton {
 	text-decoration: none;
-	color: #1e847f
+	color: #fe7004
 }
 
 #vertukvButton:hover {
@@ -194,5 +194,5 @@ img:hover {
 }
 
 .custom-shape-divider-bottom-1651439298 .shape-fill {
-	fill: #1e847f;
+	fill: #fe7004;
 }
