@@ -37,7 +37,7 @@ img {
 	border: 2px solid #FAEBD7;
 	max-height: 60%;
 	max-width: 60%;
-  border-radius: 8px;
+ 	border-radius: 8px;
   
 }
 img:hover {
@@ -59,6 +59,9 @@ img:hover {
 }
 #FeaturesP:hover {
 	color: aqua;
+	-webkit-transition: color 200ms linear;
+    	-ms-transition: color 200ms linear;
+    	transition: color 200ms linear;
 }
 #FpsComparisonDiv {
 	display: inline-flex;
@@ -90,6 +93,9 @@ img:hover {
 	border-radius: 5px;
 	border: solid 2px #1e847f;
 	color: #1e847f;
+	-webkit-transition: color 1000ms linear;
+    	-ms-transition: color 1000ms linear;
+    	transition: color 1000ms linear;
 	box-shadow: 0 5px 15px #1e847f;
 }
 
@@ -111,7 +117,13 @@ img:hover {
 	border-radius: 5px;
 	border: solid 2px aqua;
 	color: #1e847f;
-	box-shadow: 0 5px 15px aqua;
+	-webkit-transition: border 1000ms linear;
+        -ms-transition: border 1000ms linear;
+        transition: border 1000ms linear;
+	box-shadow: 0 5px 10px aqua;
+	-webkit-transition: box-shadow 200ms linear;
+        -ms-transition: box-shadow 200ms linear;
+        transition: box-shadow 200ms linear;
 }
 
 #Downloads {
@@ -164,6 +176,7 @@ img:hover {
 
 #vertukvButton:hover {
 	color: #0ffff1;
+	
 }
 
 
