@@ -41,7 +41,7 @@ img {
   
 }
 img:hover {
-	box-shadow: 0 5px 15px #6272a4;
+	box-shadow: 0 5px 15px #fe7004;
 }
 #Description2Div {
 	color: #101010;
@@ -75,6 +75,11 @@ img:hover {
 #ButtonsDiv {
 				display: inline-flex;
 				align-self: center;
+}
+
+#ButtonsDiv2 {
+	display: inline-flex;
+	align-self: center;
 }
 
 .myButton1 {
@@ -175,7 +180,7 @@ img:hover {
 }
 
 #vertukvButton:hover {
-	color: #0ffff1;
+	color: #fe7004;
 	
 }
 
@@ -195,4 +200,17 @@ img:hover {
 
 .custom-shape-divider-bottom-1651439298 .shape-fill {
 	fill: #fe7004;
+}
+
+.lolis {
+	border: 0;
+	
+}
+
+.lolis:hover {
+	box-shadow: 0 0px 0px black;
+	-webkit-filter: drop-shadow(1px 1px 0 #fe7004)
+                  drop-shadow(-1px -1px 0 #fe7004);
+  filter: drop-shadow(1px 1px 0 #fe7004) 
+          drop-shadow(-1px -1px 0 #fe7004);
 }
