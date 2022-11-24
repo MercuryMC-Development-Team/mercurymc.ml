@@ -15,10 +15,10 @@ body {
 }
 
 .TopDiv {
-	background-color: #ED760E;
+	background-color: #15626e;
 }
 .custom-shape-divider-bottom-1651436577 .shape-fill {
-	fill: #ED760E;
+	fill: #15626e;
 }
 
 .parentDiv {
@@ -41,7 +41,7 @@ img {
   
 }
 img:hover {
-	box-shadow: 0 5px 15px #ED760E;
+	box-shadow: 0 5px 15px #15626e;
 }
 #Description2Div {
 	color: #101010;
@@ -51,14 +51,14 @@ img:hover {
 }
 #Features {
 	background-color: #101010;
-	color: #ED760E;
+	color: #15626e;
 	text-align: center;
 	font-size: 24px;
 	font-family: 'Roboto Mono', monospace;
 
 }
 #FeaturesP:hover {
-	color: #ED760E;
+	color: #15626e;
 	-webkit-transition: color 200ms linear;
     	-ms-transition: color 200ms linear;
     	transition: color 200ms linear;
@@ -85,10 +85,10 @@ img:hover {
 .myButton1 {
 	display: flex;
 	border:none;
-	border:solid 2px #ED760E;
+	border:solid 2px #15626e;
 	border-radius: 5px;
 	background: rgba(255, 255, 255,0);
-	color: #ED760E;
+	color: #15626e;
 	align-items: center;
 	justify-content: center;
 	text-decoration:none;
@@ -96,12 +96,12 @@ img:hover {
 }
 .myButton1:hover {
 	border-radius: 5px;
-	border: solid 2px #ED760E;
-	color: #ED760E;
+	border: solid 2px #15626e;
+	color: #15626e;
 	-webkit-transition: color 1000ms linear;
     	-ms-transition: color 1000ms linear;
     	transition: color 1000ms linear;
-	box-shadow: 0 5px 15px #ED760E;
+	box-shadow: 0 5px 15px #15626e;
 }
 
 .myButton {
@@ -109,9 +109,9 @@ img:hover {
 	width: calc(100% + 20px);
 	display: flex;
 	border:none;
-	border:solid 2px #ED760E;
+	border:solid 2px #15626e;
 	border-radius: 5px;
-	background: #ED760E(255, 255, 255,0);
+	background: #15626e(255, 255, 255,0);
 	color: #FAEBD7;
 	align-items: center;
 	justify-content: center;
@@ -120,12 +120,12 @@ img:hover {
 }
 .myButton:hover {
 	border-radius: 5px;
-	border: solid 2px #ED760E;
-	color: #ED760E;
+	border: solid 2px #15626e;
+	color: #15626e;
 	-webkit-transition: border 1000ms linear;
         -ms-transition: border 1000ms linear;
         transition: border 1000ms linear;
-	box-shadow: 0 5px 10px #ED760E;
+	box-shadow: 0 5px 10px #15626e;
 	-webkit-transition: box-shadow 200ms linear;
         -ms-transition: box-shadow 200ms linear;
         transition: box-shadow 200ms linear;
@@ -133,7 +133,7 @@ img:hover {
 
 #Downloads {
 	
-	color: #ED760E;
+	color: #15626e;
 	text-align: center;
 	align-content: center;
 	font-size: 24px;
@@ -143,7 +143,7 @@ img:hover {
 
 #Downloads2 {
 	
-	color: #ED760E;
+	color: #15626e;
 	text-align: center;
 	align-content: center;
 	font-size: 25px;
@@ -168,7 +168,7 @@ img:hover {
 }
 
 .custom-shape-divider-top-1658130670 .shape-fill {
-    fill: #ED760E;
+    fill: #15626e;
 }
 
 
@@ -176,11 +176,11 @@ img:hover {
 
 #vertukvButton {
 	text-decoration: none;
-	color: #ED760E
+	color: #15626e
 }
 
 #vertukvButton:hover {
-	color: #ED760E;
+	color: #15626e;
 	
 }
 
@@ -199,7 +199,7 @@ img:hover {
 }
 
 .custom-shape-divider-bottom-1651439298 .shape-fill {
-	fill: #ED760E;
+	fill: #15626e;
 }
 
 .lolis {
@@ -209,8 +209,8 @@ img:hover {
 
 .lolis:hover {
 	box-shadow: 0 0px 0px black;
-	-webkit-filter: drop-shadow(1px 1px 0 #ED760E)
-                  drop-shadow(-1px -1px 0 #ED760E);
-  filter: drop-shadow(1px 1px 0 #ED760E) 
-          drop-shadow(-1px -1px 0 #ED760E);
+	-webkit-filter: drop-shadow(1px 1px 0 #15626e)
+                  drop-shadow(-1px -1px 0 #15626e);
+  filter: drop-shadow(1px 1px 0 #15626e) 
+          drop-shadow(-1px -1px 0 #15626e);
 }
