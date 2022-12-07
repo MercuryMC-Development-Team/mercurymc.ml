@@ -8,10 +8,6 @@ body {
   color: black;
   margin: 0px;
 }
-#ButtonsDiv4 {
-  display: inline-flex;
-  align-self: center;
-}
 
 .custom-shape-divider-bottom-1651436577 {
   margin: 0px;
@@ -19,18 +15,6 @@ body {
 
 .custom-shape-divider-bottom-1651436577 .shape-fill {
   fill: #15626e;
-}
-
-.parentDiv {
-  display: inline-flex;
-  align-content: center;
-}
-
-#BasePicture {
-  border: 2px solid #faebd7;
-  max-height: 100%;
-  max-width: 100%;
-  border-radius: 8px;
 }
 
 img {
@@ -61,12 +45,6 @@ img:hover {
 }
 #FpsComparisonDiv {
   display: inline-flex;
-}
-
-#FeaturesImg {
-  border: 0px;
-  height: 20%;
-  width: 20%;
 }
 
 #DownloadButtonsDiv {
@@ -111,28 +89,6 @@ img:hover {
   align-self: center;
 }
 
-.myButton1 {
-  display: flex;
-  border: none;
-  border: solid 2px #15626e;
-  border-radius: 5px;
-  background: rgba(255, 255, 255, 0);
-  color: #15626e;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  margin: 30px;
-}
-.myButton1:hover {
-  border-radius: 5px;
-  border: solid 2px #15626e;
-  color: #15626e;
-  -webkit-transition: color 1000ms linear;
-  -ms-transition: color 1000ms linear;
-  transition: color 1000ms linear;
-  box-shadow: 0 5px 15px #15626e;
-}
-
 .myButton {
   height: calc(100% + 10px);
   width: calc(100%);
@@ -174,35 +130,6 @@ img:hover {
   align-content: center;
   font-size: 25px;
   background-color: #101010;
-}
-
-.custom-shape-divider-top-1658130670 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.custom-shape-divider-top-1658130670 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 150px;
-}
-
-.custom-shape-divider-top-1658130670 .shape-fill {
-  fill: #15626e;
-}
-
-#vertukvButton {
-  text-decoration: none;
-  color: #15626e;
-}
-
-#vertukvButton:hover {
-  color: #15626e;
 }
 
 .custom-shape-divider-bottom-1651439298 {
