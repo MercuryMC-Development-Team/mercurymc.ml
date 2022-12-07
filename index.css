@@ -1,216 +1,232 @@
 body {
-	background-color: black;
+  background-color: #101010;
 }
 #SmallDescription {
-	background-color: #101010;
-	font-family: 'Roboto Mono', monospace;
-	font-size: 23px;
-	text-align: center;
-	color: #FAEBD7;
-	margin: 10px;
+  background-color: #15626e;
+  font-size: 26px;
+  text-align: center;
+  color: black;
+  margin: 0px;
 }
 #ButtonsDiv4 {
-	display: inline-flex;
-	align-self: center;
+  display: inline-flex;
+  align-self: center;
 }
 
-.TopDiv {
-	background-color: #15626e;
+.custom-shape-divider-bottom-1651436577 {
+  margin: 0px;
 }
+
 .custom-shape-divider-bottom-1651436577 .shape-fill {
-	fill: #15626e;
+  fill: #15626e;
 }
 
 .parentDiv {
-	display: inline-flex;
-	align-content: center;
+  display: inline-flex;
+  align-content: center;
 }
 
 #BasePicture {
-	border: 2px solid #FAEBD7;
-	max-height: 100%;
-	max-width: 100%;
+  border: 2px solid #faebd7;
+  max-height: 100%;
+  max-width: 100%;
   border-radius: 8px;
 }
 
 img {
-	border: 2px solid #FAEBD7;
-	max-height: 60%;
-	max-width: 60%;
- 	border-radius: 8px;
-  
+  border: 2px solid #faebd7;
+  max-height: 60%;
+  max-width: 60%;
+  border-radius: 8px;
 }
 img:hover {
-	box-shadow: 0 5px 15px #15626e;
+  box-shadow: 0 5px 15px #15626e;
 }
 #Description2Div {
-	color: #101010;
-	text-align: center;
-	font-size: 24px;
-	font-family: 'Roboto Mono', monospace;
+  color: #101010;
+  text-align: center;
+  font-size: 24px;
 }
 #Features {
-	background-color: #101010;
-	color: #15626e;
-	text-align: center;
-	font-size: 24px;
-	font-family: 'Roboto Mono', monospace;
-
+  background-color: #101010;
+  color: #15626e;
+  text-align: center;
+  font-size: 24px;
 }
 #FeaturesP:hover {
-	color: #15626e;
-	-webkit-transition: color 200ms linear;
-    	-ms-transition: color 200ms linear;
-    	transition: color 200ms linear;
+  color: #15626e;
+  -webkit-transition: color 200ms linear;
+  -ms-transition: color 200ms linear;
+  transition: color 200ms linear;
 }
 #FpsComparisonDiv {
-	display: inline-flex;
+  display: inline-flex;
 }
 
 #FeaturesImg {
-				border: 0px;
-				height: 20%;
-				width: 20%;
+  border: 0px;
+  height: 20%;
+  width: 20%;
 }
+
+#DownloadButtonsDiv {
+  display: inline-block;
+  align-self: center;
+}
+
 #ButtonsDiv {
-				display: inline-flex;
-				align-self: center;
+  display: inline-flex;
+  align-self: center;
+}
+
+.myDownloadButton {
+  height: calc(100% + 10px);
+  width: calc(100%);
+  display: flex;
+  border: none;
+  border: solid 2px #15626e;
+  border-radius: 5px;
+  background: #15626e(255, 255, 255, 0);
+  color: #faebd7;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.myDownloadButton:hover {
+  border-radius: 5px;
+  border: solid 2px #15626e;
+  color: #15626e;
+  -webkit-transition: border 1000ms linear;
+  -ms-transition: border 1000ms linear;
+  transition: border 1000ms linear;
+  box-shadow: 0 5px 10px #15626e;
+  -webkit-transition: box-shadow 200ms linear;
+  -ms-transition: box-shadow 200ms linear;
+  transition: box-shadow 200ms linear;
 }
 
 #ButtonsDiv2 {
-	display: inline-flex;
-	align-self: center;
+  display: inline-flex;
+  align-self: center;
 }
 
 .myButton1 {
-	display: flex;
-	border:none;
-	border:solid 2px #15626e;
-	border-radius: 5px;
-	background: rgba(255, 255, 255,0);
-	color: #15626e;
-	align-items: center;
-	justify-content: center;
-	text-decoration:none;
-	margin: 30px;
+  display: flex;
+  border: none;
+  border: solid 2px #15626e;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0);
+  color: #15626e;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin: 30px;
 }
 .myButton1:hover {
-	border-radius: 5px;
-	border: solid 2px #15626e;
-	color: #15626e;
-	-webkit-transition: color 1000ms linear;
-    	-ms-transition: color 1000ms linear;
-    	transition: color 1000ms linear;
-	box-shadow: 0 5px 15px #15626e;
+  border-radius: 5px;
+  border: solid 2px #15626e;
+  color: #15626e;
+  -webkit-transition: color 1000ms linear;
+  -ms-transition: color 1000ms linear;
+  transition: color 1000ms linear;
+  box-shadow: 0 5px 15px #15626e;
 }
 
 .myButton {
-	height: calc(100% + 20px);
-	width: calc(100% + 20px);
-	display: flex;
-	border:none;
-	border:solid 2px #15626e;
-	border-radius: 5px;
-	background: #15626e(255, 255, 255,0);
-	color: #FAEBD7;
-	align-items: center;
-	justify-content: center;
-	text-decoration:none;
-	margin: 30px;
+  height: calc(100% + 10px);
+  width: calc(100%);
+  display: flex;
+  border: none;
+  border: solid 2px #15626e;
+  border-radius: 5px;
+  background: #15626e(255, 255, 255, 0);
+  color: #faebd7;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin: 20px;
 }
 .myButton:hover {
-	border-radius: 5px;
-	border: solid 2px #15626e;
-	color: #15626e;
-	-webkit-transition: border 1000ms linear;
-        -ms-transition: border 1000ms linear;
-        transition: border 1000ms linear;
-	box-shadow: 0 5px 10px #15626e;
-	-webkit-transition: box-shadow 200ms linear;
-        -ms-transition: box-shadow 200ms linear;
-        transition: box-shadow 200ms linear;
+  border-radius: 5px;
+  border: solid 2px #15626e;
+  color: #15626e;
+  -webkit-transition: border 1000ms linear;
+  -ms-transition: border 1000ms linear;
+  transition: border 1000ms linear;
+  box-shadow: 0 5px 10px #15626e;
+  -webkit-transition: box-shadow 200ms linear;
+  -ms-transition: box-shadow 200ms linear;
+  transition: box-shadow 200ms linear;
 }
 
 #Downloads {
-	
-	color: #15626e;
-	text-align: center;
-	align-content: center;
-	font-size: 24px;
-	font-family: 'Roboto Mono', monospace;
-	background-color: #101010;
+  color: #15626e;
+  text-align: center;
+  align-content: center;
+  font-size: 24px;
+  background-color: #101010;
 }
 
 #Downloads2 {
-	
-	color: #15626e;
-	text-align: center;
-	align-content: center;
-	font-size: 25px;
-	font-family: 'Roboto Mono', monospace;
-	background-color: #101010;
+  color: #15626e;
+  text-align: center;
+  align-content: center;
+  font-size: 25px;
+  background-color: #101010;
 }
 
 .custom-shape-divider-top-1658130670 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
 }
 
 .custom-shape-divider-top-1658130670 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 150px;
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
 }
 
 .custom-shape-divider-top-1658130670 .shape-fill {
-    fill: #15626e;
+  fill: #15626e;
 }
 
-
-
-
 #vertukvButton {
-	text-decoration: none;
-	color: #15626e
+  text-decoration: none;
+  color: #15626e;
 }
 
 #vertukvButton:hover {
-	color: #15626e;
-	
+  color: #15626e;
 }
 
-
-
-
 .custom-shape-divider-bottom-1651439298 {
-	overflow: hidden;
-	line-height: 0;
-	transform: rotate(180deg);
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
 
 .custom-shape-divider-bottom-1651439298 svg {
-	width: calc(100% + 1.3px);
-	height: 144px;
+  width: calc(100% + 1.3px);
+  height: 144px;
 }
 
 .custom-shape-divider-bottom-1651439298 .shape-fill {
-	fill: #15626e;
+  fill: #15626e;
 }
 
 .lolis {
-	border: 0;
-	
+  border: 0;
 }
 
 .lolis:hover {
-	box-shadow: 0 0px 0px black;
-	-webkit-filter: drop-shadow(1px 1px 0 #15626e)
-                  drop-shadow(-1px -1px 0 #15626e);
-  filter: drop-shadow(1px 1px 0 #15626e) 
-          drop-shadow(-1px -1px 0 #15626e);
+  box-shadow: 0 0px 0px black;
+  -webkit-filter: drop-shadow(1px 1px 0 #15626e)
+    drop-shadow(-1px -1px 0 #15626e);
+  filter: drop-shadow(1px 1px 0 #15626e) drop-shadow(-1px -1px 0 #15626e);
 }
