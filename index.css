@@ -7,7 +7,7 @@ body {
   animation: fadein 1s;
 }
 #SmallDescription {
-  background-color: #15626e;
+  background-color: #019e7e;
   font-size: 26px;
   text-align: center;
   color: black;
@@ -19,7 +19,7 @@ body {
 }
 
 .custom-shape-divider-bottom-1651436577 .shape-fill {
-  fill: #15626e;
+  fill: #019e7e;
 }
 
 img {
@@ -29,7 +29,7 @@ img {
   border-radius: 8px;
 }
 img:hover {
-  box-shadow: 0 5px 15px #15626e;
+  box-shadow: 0 5px 15px #019e7e;
 }
 #Description2Div {
   color: #101010;
@@ -38,15 +38,27 @@ img:hover {
 }
 #Features {
   background-color: #101010;
-  color: #15626e;
+  color: #019e7e;
   text-align: center;
   font-size: 24px;
 }
 #FeaturesP:hover {
-  color: #15626e;
+  color: #019e7e;
   -webkit-transition: color 200ms linear;
   -ms-transition: color 200ms linear;
   transition: color 200ms linear;
+}
+#FeaturesP {
+  background-color: #101010;
+  color: #eee7e7bb;
+  text-align: center;
+  font-size: 24px;
+}
+#FeaturesJOPA {
+  background-color: #101010;
+  color: #eee7e7bb;
+  text-align: center;
+  font-size: 12px;
 }
 #FpsComparisonDiv {
   display: inline-flex;
@@ -117,9 +129,9 @@ img:hover {
   width: calc(100%);
   display: flex;
   border: none;
-  border: solid 2px #15626e;
+  border: solid 2px #019e7e;
   border-radius: 5px;
-  background: #15626e(255, 255, 255, 0);
+  background: #019e7e(255, 255, 255, 0);
   color: #faebd7;
   align-items: center;
   justify-content: center;
@@ -128,12 +140,12 @@ img:hover {
 }
 .myDownloadButton:hover {
   border-radius: 5px;
-  border: solid 2px #15626e;
-  color: #15626e;
+  border: solid 2px #019e7e;
+  color: #019e7e;
   -webkit-transition: border 1000ms linear;
   -ms-transition: border 1000ms linear;
   transition: border 1000ms linear;
-  box-shadow: 0 5px 10px #15626e;
+  box-shadow: 0 5px 10px #019e7e;
   -webkit-transition: box-shadow 200ms linear;
   -ms-transition: box-shadow 200ms linear;
   transition: box-shadow 200ms linear;
@@ -149,9 +161,9 @@ img:hover {
   width: calc(100%);
   display: flex;
   border: none;
-  border: solid 2px #15626e;
+  border: solid 2px #019e7e;
   border-radius: 5px;
-  background: #15626e(255, 255, 255, 0);
+  background: #019e7e(255, 255, 255, 0);
   color: #faebd7;
   align-items: center;
   justify-content: center;
@@ -160,19 +172,19 @@ img:hover {
 }
 .myButton:hover {
   border-radius: 5px;
-  border: solid 2px #15626e;
-  color: #15626e;
+  border: solid 2px #019e7e;
+  color: #019e7e;
   -webkit-transition: border 1000ms linear;
   -ms-transition: border 1000ms linear;
   transition: border 1000ms linear;
-  box-shadow: 0 5px 10px #15626e;
+  box-shadow: 0 5px 10px #019e7e;
   -webkit-transition: box-shadow 200ms linear;
   -ms-transition: box-shadow 200ms linear;
   transition: box-shadow 200ms linear;
 }
 
 #Downloads {
-  color: #15626e;
+  color: #019e7e;
   text-align: center;
   align-content: center;
   font-size: 24px;
@@ -180,7 +192,7 @@ img:hover {
 }
 
 #Downloads2 {
-  color: #15626e;
+  color: #019e7e;
   text-align: center;
   align-content: center;
   font-size: 25px;
@@ -199,7 +211,7 @@ img:hover {
 }
 
 .custom-shape-divider-bottom-1651439298 .shape-fill {
-  fill: #15626e;
+  fill: #019e7e;
 }
 
 .lolis {
@@ -208,7 +220,7 @@ img:hover {
 
 .lolis:hover {
   box-shadow: 0 0px 0px black;
-  -webkit-filter: drop-shadow(1px 1px 0 #15626e)
-    drop-shadow(-1px -1px 0 #15626e);
-  filter: drop-shadow(1px 1px 0 #15626e) drop-shadow(-1px -1px 0 #15626e);
+  -webkit-filter: drop-shadow(1px 1px 0 #019e7e)
+    drop-shadow(-1px -1px 0 #019e7e);
+  filter: drop-shadow(1px 1px 0 #019e7e) drop-shadow(-1px -1px 0 #019e7e);
 }
