@@ -5,6 +5,7 @@ body {
   -ms-animation: fadein 1s; /* Internet Explorer */
   -o-animation: fadein 1s; /* Opera < 12.1 */
   animation: fadein 1s;
+  width:99%
 }
 #SmallDescription {
   background-color: #019e7e;
