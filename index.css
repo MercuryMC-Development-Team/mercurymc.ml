@@ -1,6 +1,5 @@
 body {
-  background-color: #b8b8b8;
-   font-family: 'Comic Neue', cursive;
+  background-color: black;
   -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 1s; /* Firefox < 16 */
   -ms-animation: fadein 1s; /* Internet Explorer */
@@ -9,21 +8,25 @@ body {
   margin: 0;
 }
 .startpanel {
+  opacity: 80%;
+  z-index: 2;
+  width: 100%;
+  position: fixed;
+  left: 50%;
+  top: 0%;
+  display: inline-block;
+  transform: translateX(-50%);
   background-color: #171717;
   font-size: 15px;
   text-align: center;
   color: #cfcece;
-  margin: 0;
-  padding: 11px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 #startpanelbutton {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 5px;
 }
 
 #startpanelbutton2 {
@@ -59,15 +62,10 @@ body {
   text-align: center;
   font-weight: 300;
 }
-#afterimg {
-  display: flex;
-  padding: 3rem 0;
-  margin: 0;
-  background-color: #171717;
-}
+
 #afterimg2 {
   text-align: center;
-  color: #171717;
+  color: #cfcece;
 }
 .downbutton {
   box-shadow: 0.2rem 0.2rem 10px rgba(0, 0, 0, 1);
@@ -75,15 +73,14 @@ body {
   align-items: center;
   font-size: 1.6rem;
   padding: 1.5rem 2rem;
-  display: flex;
   background-color: #171717;
   text-decoration: none;
   color: #bebebe;
-  flex-direction: column;
   margin: 10px;
 }
 .ButtonsDiv {
-  display: inline-block;
+  align-items: center;
+  text-align: center;
 }
 .custom-shape-divider-top-1674230130 {
   top: 0;
