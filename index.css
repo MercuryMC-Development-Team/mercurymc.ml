@@ -1,80 +1,178 @@
 body {
-  background-color: #101010;
+  background-color: black;
+   font-family: 'Comic Neue', cursive;
   -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 1s; /* Firefox < 16 */
   -ms-animation: fadein 1s; /* Internet Explorer */
   -o-animation: fadein 1s; /* Opera < 12.1 */
-  animation: fadein 1s;
+  animation: fadein 1.6s;
+  margin: 0;
 }
-#SmallDescription {
-  background-color: #019e7e;
-  font-size: 26px;
-  text-align: center;
-  color: black;
-  margin: 0px;
-}
-
-.custom-shape-divider-bottom-1651436577 {
-  margin: 0px;
-}
-
-.custom-shape-divider-bottom-1651436577 .shape-fill {
-  fill: #019e7e;
-}
-
-img {
-  border: 2px solid #faebd7;
-  max-height: 60%;
-  max-width: 60%;
-  border-radius: 8px;
-}
-img:hover {
-  box-shadow: 0 5px 15px #019e7e;
-}
-#Description2Div {
-  color: #101010;
-  text-align: center;
-  font-size: 24px;
-}
-#Features {
-  background-color: #101010;
-  color: #019e7e;
-  text-align: center;
-  font-size: 24px;
-}
-#FeaturesP:hover {
-  color: #019e7e;
-  -webkit-transition: color 200ms linear;
-  -ms-transition: color 200ms linear;
-  transition: color 200ms linear;
-}
-#FeaturesP {
-  background-color: #101010;
-  color: #eee7e7bb;
-  text-align: center;
-  font-size: 24px;
-}
-#FeaturesJOPA {
-  background-color: #101010;
-  color: #eee7e7bb;
-  text-align: center;
-  font-size: 12px;
-}
-#FpsComparisonDiv {
-  display: inline-flex;
-}
-
-#DownloadButtonsDiv {
+.startpanel {
+  opacity: 85%;
+  z-index: 2;
+  width: 99%;
+  position: fixed;
+  left: 50%;
+  top: 0%;
   display: inline-block;
-  align-self: center;
+  transform: translateX(-50%);
+  background-color: #171717;
+  font-size: 10px;
+  text-align: center;
+  color: #cfcece;
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  justify-content: space-between;
 }
 
-#ButtonsDiv {
-  display: inline-flex;
-  align-self: center;
-  white-space: nowrap;
+.startpanelbutton2 {
+  color: #cfcece;
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+.caves {
+  background-image: url(assets/caves.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 12rem 0;
 }
 
+#blur {
+  background-color: #00000067;
+  display: inline-block;
+  backdrop-filter: blur(.1rem);
+  border-radius: 65px;
+  color: #adadad;
+  font-size: 70px;
+  text-align: center;
+  font-weight: 650;
+}
+#smalldesc {
+  padding: 3rem;
+  border-radius: 5px;
+  color: #adadad;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 300;
+}
+.afterimg {
+  padding: 1.82rem;
+  background-color: #171717;
+}
+#Downloads {
+  padding: 3rem;
+  background-color: black;
+}
+#desc {
+background-color: #171717;
+font-size: 24px;
+color: #adadaa;
+text-align: center;
+font-weight: 450;
+}
+#desc2 {
+  background-color: #00000067;
+  display: inline-block;
+  border-radius: 65px;
+  font-size: 70px;
+  padding: 28px;
+  font-weight: 650;
+}
+#afterimg2 {
+  text-align: center;
+  color: #929292;
+  padding: 1.82rem;
+}
+.wiki {
+  color: #585858;
+}
+
+.githubIconColor {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(225deg) brightness(105%) contrast(105%);
+}
+#github {
+  box-shadow: 0.2rem 0.2rem 10px rgba(0, 0, 0, 0.596);
+  display: inline-block;
+  border-radius: 24px;
+  font-size: 1.4rem;
+  padding: 1.3rem 2rem;
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  margin: 25px;
+}
+#github img {
+  vertical-align: text-bottom;
+  transition: transform 0.4s;
+  fill: white;
+  margin-right: 5;
+  width: 2.3rem;
+  height: 1.8rem;
+}
+#github:hover img {
+  transform: translate(0, -0.4rem);
+}
+.downbutton {
+  box-shadow: 0.2rem 0.2rem 10px rgba(0, 0, 0, 1);
+  border-radius: 30px;
+  align-items: center;
+  font-size: 1.6rem;
+  padding: 1.5rem 2rem;
+  background-color: #171717;
+  text-decoration: none;
+  color: #bebebe;
+  margin: 20px;
+}
+.ButtonsDiv {
+  align-items: center;
+  text-align: center;
+}
+#afterdesc {
+  background-color: #171717;
+  
+}
+.custom-shape-divider-top-1674230130 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1674230130 svg {
+  position: relative;
+  display: block;
+  width: calc(127% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-top-1674230130 .shape-fill {
+  fill: #171717;
+}
+
+.custom-shape-divider-bottom-1674297473 {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1674297473 svg {
+  position: relative;
+  display: block;
+  width: calc(128% + 1.3px);
+  height: 144px;
+}
+
+.custom-shape-divider-bottom-1674297473 .shape-fill {
+  fill: #171717;
+}
 @keyframes fadein {
   from {
     opacity: 0;
@@ -122,105 +220,4 @@ img:hover {
   to {
     opacity: 1;
   }
-}
-
-.myDownloadButton {
-  height: calc(100% + 10px);
-  width: calc(100%);
-  display: flex;
-  border: none;
-  border: solid 2px #019e7e;
-  border-radius: 5px;
-  background: #019e7e(255, 255, 255, 0);
-  color: #faebd7;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  margin-top: 10px;
-}
-.myDownloadButton:hover {
-  border-radius: 5px;
-  border: solid 2px #019e7e;
-  color: #019e7e;
-  -webkit-transition: border 1000ms linear;
-  -ms-transition: border 1000ms linear;
-  transition: border 1000ms linear;
-  box-shadow: 0 5px 10px #019e7e;
-  -webkit-transition: box-shadow 200ms linear;
-  -ms-transition: box-shadow 200ms linear;
-  transition: box-shadow 200ms linear;
-}
-
-#ButtonsDiv2 {
-  display: inline-flex;
-  align-self: center;
-}
-
-.myButton {
-  height: calc(100% + 10px);
-  width: calc(100%);
-  display: flex;
-  border: none;
-  border: solid 2px #019e7e;
-  border-radius: 5px;
-  background: #019e7e(255, 255, 255, 0);
-  color: #faebd7;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  margin: 20px;
-}
-.myButton:hover {
-  border-radius: 5px;
-  border: solid 2px #019e7e;
-  color: #019e7e;
-  -webkit-transition: border 1000ms linear;
-  -ms-transition: border 1000ms linear;
-  transition: border 1000ms linear;
-  box-shadow: 0 5px 10px #019e7e;
-  -webkit-transition: box-shadow 200ms linear;
-  -ms-transition: box-shadow 200ms linear;
-  transition: box-shadow 200ms linear;
-}
-
-#Downloads {
-  color: #019e7e;
-  text-align: center;
-  align-content: center;
-  font-size: 24px;
-  background-color: #101010;
-}
-
-#Downloads2 {
-  color: #019e7e;
-  text-align: center;
-  align-content: center;
-  font-size: 25px;
-  background-color: #101010;
-}
-
-.custom-shape-divider-bottom-1651439298 {
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1651439298 svg {
-  width: calc(100% + 1.3px);
-  height: 144px;
-}
-
-.custom-shape-divider-bottom-1651439298 .shape-fill {
-  fill: #019e7e;
-}
-
-.lolis {
-  border: 0;
-}
-
-.lolis:hover {
-  box-shadow: 0 0px 0px black;
-  -webkit-filter: drop-shadow(1px 1px 0 #019e7e)
-    drop-shadow(-1px -1px 0 #019e7e);
-  filter: drop-shadow(1px 1px 0 #019e7e) drop-shadow(-1px -1px 0 #019e7e);
 }
