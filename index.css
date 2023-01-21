@@ -1,36 +1,35 @@
 body {
   background-color: black;
+   font-family: 'Comic Neue', cursive;
   -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 1s; /* Firefox < 16 */
   -ms-animation: fadein 1s; /* Internet Explorer */
   -o-animation: fadein 1s; /* Opera < 12.1 */
-  animation: fadein 1s;
+  animation: fadein 1.6s;
   margin: 0;
 }
 .startpanel {
-  opacity: 80%;
+  opacity: 85%;
   z-index: 2;
-  width: 100%;
+  width: 99%;
   position: fixed;
   left: 50%;
   top: 0%;
   display: inline-block;
   transform: translateX(-50%);
   background-color: #171717;
-  font-size: 15px;
+  font-size: 10px;
   text-align: center;
   color: #cfcece;
   display: flex;
   align-items: center;
+  padding: 6px;
   justify-content: space-between;
 }
 
-#startpanelbutton {
-  margin: 5px;
-}
-
-#startpanelbutton2 {
+.startpanelbutton2 {
   color: #cfcece;
+  font-size: 0.95rem;
   text-decoration: none;
 }
 .caves {
@@ -39,7 +38,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  padding: 10rem 0;
+  padding: 12rem 0;
 }
 
 #blur {
@@ -50,9 +49,7 @@ body {
   color: #adadad;
   font-size: 70px;
   text-align: center;
-  font-weight: 750;
-  height: 10;
-  padding: 2;
+  font-weight: 650;
 }
 #smalldesc {
   padding: 3rem;
@@ -62,10 +59,59 @@ body {
   text-align: center;
   font-weight: 300;
 }
-
+.afterimg {
+  padding: 1.82rem;
+  background-color: #171717;
+}
+#Downloads {
+  padding: 3rem;
+  background-color: black;
+}
+#desc {
+background-color: #171717;
+font-size: 24px;
+padding: 3rem;
+color: #adadaa;
+text-align: center;
+font-weight: 450;
+}
+#desc2 {
+  background-color: #00000067;
+  display: inline-block;
+  border-radius: 65px;
+  font-size: 70px;
+  padding: 28px;
+  font-weight: 650;
+}
 #afterimg2 {
   text-align: center;
-  color: #cfcece;
+  color: #929292;
+  padding: 1.82rem;
+}
+.wiki {
+  color: #7c7a7a;
+}
+#telegram {
+  box-shadow: 0.2rem 0.2rem 10px rgba(0, 0, 0, 1);
+  border-radius: 30px;
+  align-items: center;
+  font-size: 1.6rem;
+  padding: 1.5rem 2rem;
+  background-color: #29b6f6;
+  text-decoration: none;
+  color: #bebebe;
+  margin: 20px;
+}
+#github {
+  box-shadow: 0.2rem 0.2rem 10px rgba(0, 0, 0, 1);
+  border-radius: 30px;
+  align-items: center;
+  font-size: 1.6rem;
+  padding: 1.5rem 2rem;
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  margin: 20px;
 }
 .downbutton {
   box-shadow: 0.2rem 0.2rem 10px rgba(0, 0, 0, 1);
@@ -76,11 +122,15 @@ body {
   background-color: #171717;
   text-decoration: none;
   color: #bebebe;
-  margin: 10px;
+  margin: 20px;
 }
 .ButtonsDiv {
   align-items: center;
   text-align: center;
+}
+#afterdesc {
+  background-color: #171717;
+  
 }
 .custom-shape-divider-top-1674230130 {
   top: 0;
@@ -101,7 +151,7 @@ body {
   fill: #171717;
 }
 
-.custom-shape-divider-bottom-1674230465 {
+.custom-shape-divider-bottom-1674297473 {
   bottom: 0;
   left: 0;
   width: 100%;
@@ -110,122 +160,16 @@ body {
   transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1674230465 svg {
+.custom-shape-divider-bottom-1674297473 svg {
   position: relative;
   display: block;
-  width: calc(127% + 1.3px);
-  height: 150px;
+  width: calc(128% + 1.3px);
+  height: 144px;
 }
 
-.custom-shape-divider-bottom-1674230465 .shape-fill {
+.custom-shape-divider-bottom-1674297473 .shape-fill {
   fill: #171717;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.myDownloadButton {
-  height: calc(100% + 10px);
-  width: calc(100%);
-  display: flex;
-  border: none;
-  border: solid 2px #753aaf;
-  border-radius: 5px;
-  background: #753aaf(255, 255, 255, 0);
-  color: #c0c0c0;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  margin-top: 10px;
-}
-.myDownloadButton:hover {
-  border-radius: 5px;
-  border: solid 2px #753aaf;
-  color: #753aaf;
-  -webkit-transition: border 1000ms linear;
-  -ms-transition: border 1000ms linear;
-  transition: border 1000ms linear;
-  box-shadow: 0 5px 10px #753aaf;
-  -webkit-transition: box-shadow 200ms linear;
-  -ms-transition: box-shadow 200ms linear;
-  transition: box-shadow 200ms linear;
-}
-
-
-
-
-
-#SmallDescription2 {
-  font-size: 26px;
-  text-align: center;
-  color: #c0c0c0;
-  margin: 0px;
-}
-
-.custom-shape-divider-bottom-1651436577 {
-  margin: 0px;
-}
-
-.custom-shape-divider-bottom-1651436577 .shape-fill {
-  fill: #753aaf;
-}
-
-img {
-  border: 2px solid #c0c0c0;
-  max-height: 60%;
-  max-width: 60%;
-  border-radius: 8px;
-}
-img:hover {
-  box-shadow: 0 5px 15px #753aaf;
-}
-
-#Description2Div {
-  font-size: 26px;
-  text-align: justify;
-  color: #c0c0c0;
-  margin: 0px;
-}
-#Features {
-  color: #753aaf;
-  text-align: center;
-  font-size: 24px;
-}
-#FeaturesP:hover {
-  color: #753aaf;
-  -webkit-transition: color 200ms linear;
-  -ms-transition: color 200ms linear;
-  transition: color 200ms linear;
-}
-#FeaturesP {
-  color: #eee7e7bb;
-  text-align: center;
-  font-size: 24px;
-}
-#FeaturesJOPA {
-  color: #eee7e7bb;
-  text-align: center;
-  font-size: 12px;
-}
-#FpsComparisonDiv {
-  display: inline-flex;
-}
-
-#DownloadButtonsDiv {
-  display: inline-block;
-  align-self: center;
-}
-
 @keyframes fadein {
   from {
     opacity: 0;
@@ -273,49 +217,4 @@ img:hover {
   to {
     opacity: 1;
   }
-}
-
-#ButtonsDiv2 {
-  display: inline-flex;
-  align-self: center;
-}
-
-#Downloads {
-  color: #753aaf;
-  text-align: center;
-  align-content: center;
-  font-size: 24px;
-}
-
-#Downloads2 {
-  color: #753aaf;
-  text-align: center;
-  align-content: center;
-  font-size: 25px;
-}
-
-.custom-shape-divider-bottom-1651439298 {
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1651439298 svg {
-  width: calc(100% + 1.3px);
-  height: 144px;
-}
-
-.custom-shape-divider-bottom-1651439298 .shape-fill {
-  fill: #753aaf;
-}
-
-.lolis {
-  border: 0;
-}
-
-.lolis:hover {
-  box-shadow: 0 0px 0px black;
-  -webkit-filter: drop-shadow(1px 1px 0 #753aaf)
-    drop-shadow(-1px -1px 0 #753aaf);
-  filter: drop-shadow(1px 1px 0 #753aaf) drop-shadow(-1px -1px 0 #753aaf);
 }
