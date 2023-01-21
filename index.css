@@ -1,6 +1,5 @@
 body {
   background-color: black;
-   font-family: 'Comic Neue', cursive;
   -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 1s; /* Firefox < 16 */
   -ms-animation: fadein 1s; /* Internet Explorer */
@@ -50,6 +49,7 @@ body {
   font-size: 70px;
   text-align: center;
   font-weight: 650;
+  font-family: 'Comic Neue', cursive;
 }
 #smalldesc {
   padding: 3rem;
@@ -81,6 +81,7 @@ font-weight: 450;
   font-size: 70px;
   padding: 28px;
   font-weight: 650;
+  font-family: 'Comic Neue', cursive;
 }
 #afterimg2 {
   text-align: center;
