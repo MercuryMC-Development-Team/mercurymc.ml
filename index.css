@@ -59,6 +59,14 @@ body {
   text-align: center;
   font-weight: 300;
 }
+#smalldesc3 {
+  padding: 3rem;
+  border-radius: 5px;
+  color: #9b0f0f;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 300;
+}
 .afterimg {
   padding: 1.82rem;
   background-color: #171717;
